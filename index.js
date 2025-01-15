@@ -85,7 +85,9 @@ var menu2 = document.querySelector('.menu_2');
 
 
 darkMode.addEventListener('click', function () {
-    document.body.style.backgroundImage = "url('black-background-with-white-star-middle_163305-234323.avif')";
+    document.body.style.backgroundImage = "none";
+document.body.style.backgroundColor = "black"; 
+
     document.menu_2.style.backgroundColor = "aqua";
 
 });
