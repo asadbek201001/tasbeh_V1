@@ -498,7 +498,7 @@ a {
     }
 
     .menu-2, .first-container {
-        width: 90%; /* Responsiv */
+        width: 100%;
         height: 500px;
     }
 
