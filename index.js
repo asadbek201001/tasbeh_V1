@@ -44,7 +44,6 @@ var countH2 = document.querySelector('.count');
 var restartButton = document.querySelector('.restart-button'); 
 var audio = new Audio('tasbex-audio.mp4');
 var count = 0;
-
 audio.preload = 'auto'; 
 
 clickButton.addEventListener('click', function () {
